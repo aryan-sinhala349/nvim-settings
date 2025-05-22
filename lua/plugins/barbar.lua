@@ -18,6 +18,7 @@ return {
             map('n', '<A-.>', '<Cmd>BufferNext<CR>', opts)
             map('n', '<A-<>', '<Cmd>BufferMovePrevious<CR>', opts)
             map('n', '<A->>', '<Cmd>BufferMoveNext<CR>', opts)
+            map('n', '<A-c>', '<Cmd>BufferClose<CR>', opts)
         end,
         version = '^1.0.0',
     },
