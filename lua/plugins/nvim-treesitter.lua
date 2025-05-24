@@ -31,6 +31,7 @@ return {
                     "markdown_inline",
                     "nasm",
                     "python",
+                    "rust",
                     "sql",
                     "yaml"
                 },
