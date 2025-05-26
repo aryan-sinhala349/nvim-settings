@@ -10,7 +10,9 @@ return {
         -- build = "cargo build --release"
         -- If you use nix, you can build from source using latest nightly rust with:
         -- build = "nix run .#build-plugin",
-        opts = { },
+        opts = {
+            enabled = function() return not vim.tbl_contains({ "TelescopePrompt", nil }, vim.bo.filetype) end
+        },
         opts_extended = { "sources.default" }
     },
     {
