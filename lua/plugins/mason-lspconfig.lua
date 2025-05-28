@@ -9,6 +9,7 @@ return {
                 "cmake",
                 "slangd",
                 "lua_ls",
+                "pyright"
             },
         },
         dependencies = {

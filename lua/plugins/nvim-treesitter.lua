@@ -12,6 +12,8 @@ return {
             "cpp",
             "hlsl",
             "lua",
+            "markdown",
+            "python",
         },
     },
 }
